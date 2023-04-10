@@ -1,2 +1,0 @@
-This is the Readme-file for the repository of the project "Personal Homepage", a website-project for the course Web Development at Vives Hogeschool Kortrijk.
-Het is een project dat tot stand komt doorheen de verschillende opdrachten van de verschillende lessen.
