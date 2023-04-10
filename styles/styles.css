@@ -50,7 +50,7 @@ h1, h2, h3, h4, p, ul, li, a {
   border-bottom-style: solid;
   padding-bottom: 15px;
   padding-top: 30px;
-  background-color:   #d4ecff;
+  background-color:  #d4ecff;
 }
 .horizontal {
   display: flex;
@@ -67,7 +67,6 @@ h1, h2, h3, h4, p, ul, li, a {
   font-size: 14px;
   text-transform: uppercase;
   margin-right: 2em;
-  background-color: #d4ecff;
 }
 
 /* HYPERLINKS */
