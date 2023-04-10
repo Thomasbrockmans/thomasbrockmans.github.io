@@ -43,6 +43,15 @@ h1, h2, h3, h4, p, ul, li, a {
   padding-bottom: 15px;
   padding-top: 30px;
 }
+.navblock2 {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  background-color:   #d4ecff;
+}
 .horizontal {
   display: flex;
   list-style: none;
