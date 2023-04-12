@@ -34,6 +34,7 @@ body {
 #navmenutext {
   padding-right: 20px;
   font-size: 20px;
+  text-transform: uppercase;
   line-height: 60px;
   font-style: normal;
   list-style: none;
