@@ -12,15 +12,24 @@ body {
 
 /* wrapping the headertitle and the nav in a div with flex display */
 #headerblock {
-  background-color: white;
-  height: 80px;
+  background-color: blue;
+  height: 60px;
 }
-
+#header {
+  float: left;
+  box-sizing: border-box;
+  height: 60px;
+  margin-left: 0px;
+  background-color: red;
+}
+#navmenu {}
 /* Styles */
 h1 {
   font-size: 50px;
   font-weight: bold;
   color: #78B3EB;
+  padding: 0px;
+  margin: 0px;
 }
 .normal {
   font-weight: normal;
