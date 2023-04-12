@@ -2,8 +2,26 @@ body {
   font-family: Optima;
 }
 
+/* wrapping the whole website in 95% of the viewport */
 #wrapper {
   width: 95%;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* wrapping the headertitle and the nav in a div with flex display */
+#headerblock {
+  background-color: white;
+  height: 80px;
+}
+
+/* Styles */
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #78B3EB;
+}
+.normal {
+  font-weight: normal;
 }
