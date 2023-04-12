@@ -12,10 +12,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-#backgroundimage {
-  background-image: url('images/background.jpeg');
-  background-size: contain;
-}
 
 /* wrapping the headertitle and the nav in a div with flex display */
 #headerblock {
@@ -44,6 +40,33 @@ body {
   list-style: none;
   display: inline
 }
+
+/* main block */
+main {
+  display:flex;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+img {
+  border: white, solid, 4px;
+}
+
+.floatyfour {
+  float: left;
+  margin-right: 40px;
+  width: 400px;
+}
+.floatysix {
+  float: left;
+  width: 600px;
+  margin-right: 40px;
+}
+
 /* Styles */
 h1 {
   font-size: 40px;
@@ -51,6 +74,13 @@ h1 {
   color: #78B3EB;
   padding: 0px;
   margin: 0px;
+}
+p {
+  font-size: 20px;
+}
+#nomargin {
+  margin-top: 0px !important;
+  margin-bottom: 0px;
 }
 /* hyperlinks */
 a {
