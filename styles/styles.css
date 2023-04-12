@@ -12,7 +12,7 @@ body {
 
 /* wrapping the headertitle and the nav in a div with flex display */
 #headerblock {
-  background-color: blue;
+  background-color: white;
   height: 60px;
 }
 #header {
@@ -20,9 +20,26 @@ body {
   box-sizing: border-box;
   height: 60px;
   margin-left: 0px;
-  background-color: red;
+  background-color: white;
 }
-#navmenu {}
+#navmenu {
+  float: right;
+  box-sizing: border-box;
+  line-height: 50px;
+  height: 60px;
+  margin-right: 0px;
+  background-color: white;
+  padding: 5px;
+}
+#navmenutext {
+  padding-right: 20px;
+  font-size: 25px;
+  color: black;
+  line-height: 60px;
+  font-style: normal;
+  list-style: none;
+  display: inline
+}
 /* Styles */
 h1 {
   font-size: 50px;
@@ -30,6 +47,10 @@ h1 {
   color: #78B3EB;
   padding: 0px;
   margin: 0px;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
 }
 .normal {
   font-weight: normal;
