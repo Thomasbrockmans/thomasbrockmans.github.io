@@ -4,7 +4,7 @@ body {
 
 /* wrapping the whole website in 95% of the viewport */
 #wrapper {
-  width: 95%;
+  width: 90%;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +34,6 @@ body {
 #navmenutext {
   padding-right: 20px;
   font-size: 25px;
-  color: black;
   line-height: 60px;
   font-style: normal;
   list-style: none;
@@ -48,9 +47,21 @@ h1 {
   padding: 0px;
   margin: 0px;
 }
+/* hyperlinks */
 a {
-  font-style: normal;
   text-decoration: none;
+}
+a:active {
+  color: #78B3EB;
+}
+a:hover {
+  color: #78B3EB;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: #78B3EB;
 }
 .normal {
   font-weight: normal;
