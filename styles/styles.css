@@ -1,6 +1,9 @@
 body {
   font-family: Optima;
 }
+#home {
+  color: white;
+}
 
 /* wrapping the whole website in 95% of the viewport */
 #wrapper {
@@ -9,10 +12,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+#backgroundimage {
+  background-image: url('images/background.jpeg');
+  background-size: contain;
+}
 
 /* wrapping the headertitle and the nav in a div with flex display */
 #headerblock {
-  background-color: white;
   height: 60px;
 }
 #header {
@@ -20,7 +26,6 @@ body {
   box-sizing: border-box;
   height: 60px;
   margin-left: 0px;
-  background-color: white;
 }
 #navmenu {
   float: right;
@@ -28,7 +33,6 @@ body {
   line-height: 50px;
   height: 60px;
   margin-right: 0px;
-  background-color: white;
   padding: 5px;
 }
 #navmenutext {
