@@ -33,7 +33,7 @@ body {
 }
 #navmenutext {
   padding-right: 20px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 60px;
   font-style: normal;
   list-style: none;
@@ -41,7 +41,7 @@ body {
 }
 /* Styles */
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #78B3EB;
   padding: 0px;
