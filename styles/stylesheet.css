@@ -4,6 +4,24 @@
   font-family: Arial;
 }
 
+body {
+  width: 100%;
+}
+
 h1 {
-  
+
+}
+
+#headerbar {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  background-color: lightblue;
+  position: fixed;
+}
+
+#insideheaderbar {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
