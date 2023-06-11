@@ -1,22 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: Copperplate;
 }
 
 body {
   width: 100%;
 }
 
-h1 {
-
-}
-
 #headerbar {
   width: 100%;
   height: 100px;
-  margin-top: 30px;
-  background-color: lightblue;
+  margin-top: 0;
+  margin-left: 0;
+  background-color: #66B2FF;
   position: fixed;
 }
 
@@ -24,4 +21,41 @@ h1 {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#headerbar img {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: left;
+  width: 100px;
+  height: 70px;
+  outline: solid 1px black;
+}
+
+#headertitle {
+  display: inline-block;
+  float: left;
+  display: flex;
+}
+
+#headertitle h1 {
+  color: #FFFF66;
+  font-weight: normal;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#headerbarnav {
+  display: inline-block;
+}
+
+#mainwindow {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  height: 2000px;
 }
