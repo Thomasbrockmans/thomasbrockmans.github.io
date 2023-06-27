@@ -76,11 +76,6 @@ body {
   width: 40px;
 }
 
-#headerdropdownicon:hover {
-  margin-top: 31px;
-  width: 39px;
-}
-
 #headerbarnavdropdown {
   margin-top: 0px;
 }
@@ -103,8 +98,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  border-left: solid 1px black;
-  border-right: solid 1px black;
   height: 500px;
   clear: both;
 }
@@ -132,13 +125,82 @@ p {
 
 @media (max-width: 899px)
 {
-  #insideheaderbar {
-    background-color: red;
+  #headerbar {
+    height: 70px;
     width: 100%;
+  }
+
+  #insideheaderbar {
+    width: 100%;
+  }
+
+  #navbarrow1 {
+    justify-content: space-space-between;
+    width: 100%;
+    height: 50px;
+  }
+
+  #navbarrow2 {
+    padding-right: 22px;
+  }
+
+  #headerlogoimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  #headertitle {
+    height: 50px;
+    width: 400px;
+  }
+
+  #headertitle h1 {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  #navbaricon {
+    height: 40px;
+    margin-left: auto;
+  }
+
+  #headerdropdownicon {
+    margin-top: 17px;
+    margin-right: 20px;
+    margin-left: 200px;
+    width: 30px;
+  }
+
+  #headerbarnavdropdown {
+    margin-top: 0px;
+  }
+
+  .nav {
+      display: none;
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      padding-left: 5px;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+  }
+
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8em;
   }
 
   #mainwindow {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 40px;
   }
 }
