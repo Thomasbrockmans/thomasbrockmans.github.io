@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Copperplate;
+  font-family: sans-serif;
 }
 
 body {
@@ -123,7 +123,7 @@ p {
   text-align: center;
 }
 
-@media (max-width: 899px)
+@media screen and (max-width: 899px)
 {
   #headerbar {
     height: 70px;
@@ -205,7 +205,7 @@ p {
   }
 }
 
-@media (max-width: 649px)
+@media screen and (max-width: 649px)
 {
   #headerbar {
     width: 100%;
