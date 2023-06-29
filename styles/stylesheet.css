@@ -100,6 +100,7 @@ body {
   margin-top: 50px;
   height: 500px;
   clear: both;
+  position: relative;
 }
 
 h1 {
@@ -117,6 +118,7 @@ p {
   background-color: lightgray;
   height: 30px;
   padding-top: 10px;
+  position: relative;
 }
 
 #footertext {
