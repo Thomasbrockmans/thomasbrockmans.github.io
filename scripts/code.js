@@ -8,6 +8,7 @@ console.log("the menu is visible: " + global.menuVisible);
 const setup =()=> {
   let dropdownicon = document.getElementById("headerdropdownicon");
   dropdownicon.addEventListener("click", clickmenu);
+
 }
 
 window.addEventListener("load", setup);
