@@ -253,7 +253,7 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
 
   header {
     padding-left: 20px;
-    padding-right: 100px;
+    padding-right: 20px;
     padding-top: 10px;
     position: sticky;
     height: 70px;
@@ -264,7 +264,7 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
   }
 /* aangepaste afmetingen */
   ul {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   li {
