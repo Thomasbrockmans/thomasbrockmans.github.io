@@ -85,12 +85,8 @@ li a:hover {
 li a:active {
   border-bottom: 1px solid #A8E0FF;
   padding-bottom: 5px;
-  color: #A8E0FF;
 }
 
-li a:visited {
-  color: #F9C846;
-}
 
 /* vanaf hier is de styling voor de normale inhoud van de website */
 article {
