@@ -49,6 +49,11 @@ h1 {
   padding-right: 40px;
   margin-right: 30px;
   text-align: center;
+  transition: color 0.2s linear;
+}
+
+h1:hover {
+  color: #A8E0FF;
 }
 
 #headertitle {
@@ -84,12 +89,13 @@ li a img {
 li a {
   text-decoration: none;
   color: #F9C846;
+  transition: all 0.2s linear;
 }
 
 li a:hover {
   border-bottom: 1px solid #A8E0FF;
   padding-bottom: 5px;
-  color: #F9C846;
+  color: #A8E0FF;
 }
 
 li a:active {
@@ -192,6 +198,11 @@ footer {
   height: 50px;
   width: 100%;
   display: flex;
+  transition: all 0.3s ease;
+}
+
+footer:hover {
+  background-color: #615055;
 }
 
 footer p {
@@ -386,6 +397,7 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
     visibility: visible;
     display: block;
     margin: 0 auto;
+    fill: #A8E0FF;
   }
 
   li a {
@@ -432,11 +444,11 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
 
   /* vanaf hier begint de styling voor de FOOTER */
   footer {
-    background-color: #F9C846;
     height: 30px;
     width: 100%;
     display: flex;
   }
+
 
   footer p {
     display: block;
