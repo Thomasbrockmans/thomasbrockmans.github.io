@@ -51,6 +51,10 @@ h1 {
   text-align: center;
 }
 
+#headertitle {
+  text-decoration: none;
+}
+
 /* de volgende elementen zijn voor de navigatie-links */
 ul {
   margin-top: 45px;
@@ -67,8 +71,14 @@ li {
   text-align: center;
   display: inline;
   color: #F9C846;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 300;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+li a img {
+  visibility: hidden;
 }
 
 li a {
@@ -154,6 +164,12 @@ article:first-child {
 
 article h2 {
   font-size: 1.8em;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+article h3 {
+  font-size: 1.1em;
   margin-bottom: 30px;
   font-weight: 400;
 }
@@ -210,7 +226,7 @@ voor een browser-schermbreedte tussen 820 en 1000 pixels
   }
 /* aangepaste afmetingen */
   ul {
-    margin-top: 35px;
+    margin-top: 30px;
   }
 
   li {
@@ -226,6 +242,12 @@ voor een browser-schermbreedte tussen 820 en 1000 pixels
 
   article h2 {
     font-size: 1.6em;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  article h3 {
+    font-size: 1.1em;
     margin-bottom: 30px;
     font-weight: 400;
   }
@@ -260,7 +282,7 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
   }
 /* aangepaste afmetingen */
   ul {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   li {
@@ -276,6 +298,11 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
 
   article h2 {
     font-size: 1.2em;
+    text-align: center;
+  }
+
+  article h3 {
+    font-size: 1.1em;
     text-align: center;
   }
 
@@ -344,10 +371,28 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
     margin-bottom: auto;
     padding: 5px;
     width: 100%;
+    display: flex;
   }
 
   li {
     font-size: 1em;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  li a img {
+    visibility: visible;
+    display: block;
+    margin: 0 auto;
+  }
+
+  li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
   }
 
   /* vanaf hier is de styling voor de normale inhoud van de website */
@@ -360,6 +405,13 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
 
   article h2 {
     font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  article h3 {
+    font-size: 1.1em;
     margin-bottom: 20px;
     font-weight: 400;
     text-align: center;
