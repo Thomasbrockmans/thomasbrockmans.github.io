@@ -214,10 +214,12 @@ footer p {
 }
 
 /* de tekst thomas wordt opnieuw in caveat gezet */
-footer p span {
+footer p a {
   font-family: 'Caveat', cursive;
   font-weight: 400;
   font-size: 1.6em;
+  text-decoration: none;
+  color: white;
 }
 
 /*
@@ -346,7 +348,7 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
   }
 
   /* de tekst thomas wordt opnieuw in caveat gezet */
-  footer p span {
+  footer p a {
     font-family: 'Caveat', cursive;
     font-weight: 300;
     font-size: 1.4em;
@@ -460,7 +462,7 @@ voor een browser-schermbreedte tussen 500 en 820 pixels
   }
 
   /* de tekst thomas wordt opnieuw in caveat gezet */
-  footer p span {
+  footer p a {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     font-size: 1.4em;
