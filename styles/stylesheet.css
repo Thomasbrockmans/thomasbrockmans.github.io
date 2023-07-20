@@ -222,6 +222,16 @@ footer p a {
   color: white;
 }
 
+footer a {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
 /*
 vanaf hier wordt de styling aangepast
 voor een browser-schermbreedte tussen 820 en 1000 pixels
