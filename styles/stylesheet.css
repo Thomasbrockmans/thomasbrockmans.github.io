@@ -119,7 +119,7 @@ article {
   padding-right: 80px;
   padding-bottom: 30px;
   padding-top: 40px;
-  min-height: 250px;
+  float: none;
 }
 
 /* hier gebruiken we een orde zodat elke artikel een andere accent-kleur krijgt,
