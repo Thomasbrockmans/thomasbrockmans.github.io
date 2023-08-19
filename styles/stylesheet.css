@@ -183,23 +183,27 @@ article h2 {
   font-size: 1.8em;
   margin-bottom: 10px;
   font-weight: 400;
+  float: none;
 }
 
 article h3 {
   font-size: 1.1em;
   margin-bottom: 30px;
   font-weight: 400;
+  float: none;
 }
 
 .article p {
   font-size: 1.1em;
+  float: none;
 }
 /* de tekst wordt rond de afbeelding gegoten */
 .article img {
-  height: 250px;
+  max-height: 250px;
   border-radius: 10px;
   margin-right: 30px;
   margin-bottom: 30px;
+  float: none;
 }
 
 /* vanaf hier begint de styling voor de FOOTER */
