@@ -21,6 +21,15 @@ body {
   width: 100%;
 }
 
+a {
+  color: #F9C846;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A8E0FF;
+}
+
 /* dit is de navigatie bar waar ook THOMAS in staat
 hij begint links pas vanaf 70px om wat marge(padding) te houden
 rechts neemt hij 200 padding zodat de navigatie niet te breed verspreid wordt
@@ -110,6 +119,7 @@ article {
   padding-right: 80px;
   padding-bottom: 30px;
   padding-top: 40px;
+  min-height: 250px;
 }
 
 /* hier gebruiken we een orde zodat elke artikel een andere accent-kleur krijgt,
@@ -126,6 +136,7 @@ article:nth-child(4n-3) h2 {
 
 article:nth-child(4n-3) img {
   border: 1px solid #F9C846;
+
 }
 
 article:nth-child(4n-2) {
@@ -185,11 +196,10 @@ article h3 {
 }
 /* de tekst wordt rond de afbeelding gegoten */
 .article img {
-  width: 400px;
+  height: 250px;
   border-radius: 10px;
   margin-right: 30px;
   margin-bottom: 30px;
-  float: left;
 }
 
 /* vanaf hier begint de styling voor de FOOTER */
